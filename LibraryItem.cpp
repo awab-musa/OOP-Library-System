@@ -46,3 +46,15 @@ int LibraryItem::getTotalItems()
 {
     return totalItems;
 }
+
+void LibraryItem::comparePrice(LibraryItem &a)
+{
+}
+
+void LibraryItem::borrowItem()
+{
+}
+
+void LibraryItem::borrowItem(string borrowName)
+{
+}
