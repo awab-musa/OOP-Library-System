@@ -8,3 +8,6 @@ private:
     string title;
     bool isBorrowed;
     static int totalItems;
+
+protected:
+    float price;
