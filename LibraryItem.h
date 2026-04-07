@@ -24,3 +24,7 @@ public:
     ~LibraryItem();
 
     static int getTotalItems();
+
+    void comparePrice(LibraryItem &a);
+    void borrowItem();
+    void borrowItem(string borrowName);
