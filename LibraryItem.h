@@ -20,3 +20,7 @@ public:
     void setId(int newId);
     void setTitle(string newTitle);
     void setIsBorrowed(bool newIsBorrowed);
+    LibraryItem(int id, string title, float price);
+    ~LibraryItem();
+
+    static int getTotalItems();
