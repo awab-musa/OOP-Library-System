@@ -41,3 +41,8 @@ LibraryItem::~LibraryItem()
 {
     totalItems--;
 }
+
+int LibraryItem::getTotalItems()
+{
+    return totalItems;
+}
