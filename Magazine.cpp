@@ -5,3 +5,6 @@ Magazine::Magazine(int id, string title, float price, int issueNumber, string pu
     : LibraryItem(id, title, price), issueNumber(issueNumber), publisher(publisher)
 {
 }
+Magazine::~Magazine()
+{
+}
