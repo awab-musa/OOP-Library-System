@@ -7,3 +7,7 @@ class Magazine : public LibraryItem
 private:
     int issueNumber;
     string publisher;
+
+public:
+    Magazine(int id, string title, float price, int issueNumber, string publisher);
+    ~Magazine();
