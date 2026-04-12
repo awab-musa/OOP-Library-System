@@ -5,3 +5,15 @@ ResearchPaper::ResearchPaper(int id, string title, float price, string researche
     : LibraryItem(id, title, price), researcher(researcher), field(field)
 {
 }
+ResearchPaper::~ResearchPaper()
+{
+}
+string ResearchPaper::getResearcher()
+{
+    return researcher;
+}
+
+string ResearchPaper::getField()
+{
+    return field;
+}
