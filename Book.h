@@ -15,3 +15,6 @@ public:
     int getPages();
     void setAuthor(string newAuthor);
     void setPages(int newPages);
+    void displayInfo() override;
+    void calculateLateFee(int days) override;
+};
