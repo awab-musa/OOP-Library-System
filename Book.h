@@ -7,3 +7,7 @@ class Book : public LibraryItem
 private:
     string author;
     int pages;
+
+public:
+    Book(int id, string title, float price, string author, int pages);
+    ~Book();
