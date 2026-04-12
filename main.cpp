@@ -44,3 +44,6 @@ int main()
 
     cout << "========== TOTAL ITEMS ==========" << endl;
     cout << "Total library items created: " << LibraryItem::getTotalItems() << endl;
+
+    return 0;
+}
