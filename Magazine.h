@@ -11,3 +11,5 @@ private:
 public:
     Magazine(int id, string title, float price, int issueNumber, string publisher);
     ~Magazine();
+    int getIssueNumber();
+    string getPublisher();
