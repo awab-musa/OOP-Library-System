@@ -7,3 +7,7 @@ class ResearchPaper : public LibraryItem
 private:
     string researcher;
     string field;
+
+public:
+    ResearchPaper(int id, string title, float price, string researcher, string field);
+    ~ResearchPaper();
