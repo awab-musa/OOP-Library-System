@@ -26,3 +26,13 @@ void Magazine::setPublisher(string newPublisher)
 {
     publisher = newPublisher;
 }
+void Magazine::displayInfo()
+{
+    cout << "=== Magazine ===" << endl;
+    cout << "ID: " << getId() << endl;
+    cout << "Title: " << getTitle() << endl;
+    cout << "Issue Number: " << issueNumber << endl;
+    cout << "Publisher: " << publisher << endl;
+    cout << "Price: $" << price << endl;
+    cout << "Status: " << (getIsBorrowed() ? "Borrowed" : "Available") << endl;
+}
