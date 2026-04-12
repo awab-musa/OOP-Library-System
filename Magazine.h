@@ -15,3 +15,6 @@ public:
     string getPublisher();
     void setIssueNumber(int newIssueNumber);
     void setPublisher(string newPublisher);
+    void displayInfo() override;
+    void calculateLateFee(int days) override;
+};
