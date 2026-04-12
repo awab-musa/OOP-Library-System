@@ -5,3 +5,6 @@ Book::Book(int id, string title, float price, string author, int pages)
     : LibraryItem(id, title, price), author(author), pages(pages)
 {
 }
+Book::~Book()
+{
+}
