@@ -17,3 +17,12 @@ int Book::getPages()
 {
     return pages;
 }
+void Book::setAuthor(string newAuthor)
+{
+    author = newAuthor;
+}
+
+void Book::setPages(int newPages)
+{
+    pages = newPages;
+}
