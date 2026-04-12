@@ -49,6 +49,12 @@ int LibraryItem::getTotalItems()
 
 void LibraryItem::comparePrice(LibraryItem &a)
 {
+    if (price > a.price)
+        cout << getTitle() << " is more expensive than " << a.getTitle() << endl;
+    else if (price < a.price)
+        cout << getTitle() << " is cheaper than " << a.getTitle() << endl;
+    else
+        cout << getTitle() << " and " << a.getTitle() << " are the same price." << endl;
 }
 
 void LibraryItem::borrowItem()
