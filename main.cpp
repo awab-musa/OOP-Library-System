@@ -35,3 +35,9 @@ int main()
     m1.borrowItem("Bob");
     r1.borrowItem("Dr. Smith");
     cout << endl;
+
+    cout << "========== PRICE COMPARISONS ==========" << endl;
+    b1.comparePrice(b2);
+    b1.comparePrice(m1);
+    r1.comparePrice(m1);
+    cout << endl;
