@@ -53,6 +53,8 @@ void LibraryItem::comparePrice(LibraryItem &a)
 
 void LibraryItem::borrowItem()
 {
+    isBorrowed = true;
+    cout << "\"" << title << "\" has been borrowed." << endl;
 }
 
 void LibraryItem::borrowItem(string borrowName)
