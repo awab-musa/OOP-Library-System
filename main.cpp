@@ -20,3 +20,11 @@ int main()
         items[i]->displayInfo();
         cout << endl;
     }
+
+    cout << "========== LATE FEE CALCULATIONS ==========" << endl;
+    int lateDays[4] = {5, 10, 3, 9};
+    for (int i = 0; i < 4; i++)
+    {
+        items[i]->calculateLateFee(lateDays[i]);
+    }
+    cout << endl;
