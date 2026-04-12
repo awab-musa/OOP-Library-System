@@ -13,3 +13,10 @@ int main()
     ResearchPaper r1(4, "Deep Learning Overview", 25.00f, "Geoffrey Hinton", "Artificial Intelligence");
 
     LibraryItem *items[4] = {&b1, &b2, &m1, &r1};
+
+    cout << "========== LIBRARY CATALOGUE ==========" << endl;
+    for (int i = 0; i < 4; i++)
+    {
+        items[i]->displayInfo();
+        cout << endl;
+    }
