@@ -26,3 +26,13 @@ void ResearchPaper::setField(string newField)
 {
     field = newField;
 }
+void ResearchPaper::displayInfo()
+{
+    cout << "=== Research Paper ===" << endl;
+    cout << "ID: " << getId() << endl;
+    cout << "Title: " << getTitle() << endl;
+    cout << "Researcher: " << researcher << endl;
+    cout << "Field: " << field << endl;
+    cout << "Price: $" << price << endl;
+    cout << "Status: " << (getIsBorrowed() ? "Borrowed" : "Available") << endl;
+}
