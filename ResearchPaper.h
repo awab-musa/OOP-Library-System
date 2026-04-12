@@ -15,3 +15,6 @@ public:
     string getField();
     void setResearcher(string newResearcher);
     void setField(string newField);
+    void displayInfo() override;
+    void calculateLateFee(int days) override;
+};
