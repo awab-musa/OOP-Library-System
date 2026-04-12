@@ -26,3 +26,13 @@ void Book::setPages(int newPages)
 {
     pages = newPages;
 }
+void Book::displayInfo()
+{
+    cout << "=== Book ===" << endl;
+    cout << "ID: " << getId() << endl;
+    cout << "Title: " << getTitle() << endl;
+    cout << "Author: " << author << endl;
+    cout << "Pages: " << pages << endl;
+    cout << "Price: $" << price << endl;
+    cout << "Status: " << (getIsBorrowed() ? "Borrowed" : "Available") << endl;
+}
