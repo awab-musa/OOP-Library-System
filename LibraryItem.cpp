@@ -59,4 +59,6 @@ void LibraryItem::borrowItem()
 
 void LibraryItem::borrowItem(string borrowName)
 {
+    isBorrowed = true;
+    cout << "\"" << title << "\" has been borrowed by " << borrowName << "." << endl;
 }
