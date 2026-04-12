@@ -4,3 +4,6 @@
 using namespace std;
 class ResearchPaper : public LibraryItem
 {
+private:
+    string researcher;
+    string field;
