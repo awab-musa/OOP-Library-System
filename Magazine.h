@@ -13,3 +13,5 @@ public:
     ~Magazine();
     int getIssueNumber();
     string getPublisher();
+    void setIssueNumber(int newIssueNumber);
+    void setPublisher(string newPublisher);
