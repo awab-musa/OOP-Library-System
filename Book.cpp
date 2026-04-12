@@ -36,3 +36,9 @@ void Book::displayInfo()
     cout << "Price: $" << price << endl;
     cout << "Status: " << (getIsBorrowed() ? "Borrowed" : "Available") << endl;
 }
+void Book::calculateLateFee(int days)
+{
+    float fee = days * 1.50f;
+    cout << "Late fee for book \"" << getTitle() << "\": $" << fee
+         << " (" << days << " days at $1.50/day)" << endl;
+}
