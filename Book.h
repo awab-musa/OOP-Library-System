@@ -13,3 +13,5 @@ public:
     ~Book();
     string getAuthor();
     int getPages();
+    void setAuthor(string newAuthor);
+    void setPages(int newPages);
