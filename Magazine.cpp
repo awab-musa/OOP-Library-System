@@ -8,3 +8,12 @@ Magazine::Magazine(int id, string title, float price, int issueNumber, string pu
 Magazine::~Magazine()
 {
 }
+int Magazine::getIssueNumber()
+{
+    return issueNumber;
+}
+
+string Magazine::getPublisher()
+{
+    return publisher;
+}
