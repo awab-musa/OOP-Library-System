@@ -4,3 +4,6 @@
 #include "Magazine.h"
 #include "ResearchPaper.h"
 using namespace std;
+
+int main()
+{
