@@ -17,3 +17,12 @@ string Magazine::getPublisher()
 {
     return publisher;
 }
+void Magazine::setIssueNumber(int newIssueNumber)
+{
+    issueNumber = newIssueNumber;
+}
+
+void Magazine::setPublisher(string newPublisher)
+{
+    publisher = newPublisher;
+}
