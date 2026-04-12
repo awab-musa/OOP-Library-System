@@ -11,3 +11,5 @@ private:
 public:
     Book(int id, string title, float price, string author, int pages);
     ~Book();
+    string getAuthor();
+    int getPages();
