@@ -28,3 +28,10 @@ int main()
         items[i]->calculateLateFee(lateDays[i]);
     }
     cout << endl;
+
+    cout << "========== BORROWING DEMO ==========" << endl;
+    b1.borrowItem();
+    b2.borrowItem("Alice");
+    m1.borrowItem("Bob");
+    r1.borrowItem("Dr. Smith");
+    cout << endl;
