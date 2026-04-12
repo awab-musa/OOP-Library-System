@@ -11,3 +11,5 @@ private:
 public:
     ResearchPaper(int id, string title, float price, string researcher, string field);
     ~ResearchPaper();
+    string getResearcher();
+    string getField();
