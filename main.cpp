@@ -7,3 +7,7 @@ using namespace std;
 
 int main()
 {
+    Book b1(1, "Clean Code", 45.99f, "Robert C. Martin", 431);
+    Book b2(2, "The Pragmatic Programmer", 39.99f, "Andrew Hunt", 352);
+    Magazine m1(3, "National Geographic", 12.50f, 215, "National Geographic Society");
+    ResearchPaper r1(4, "Deep Learning Overview", 25.00f, "Geoffrey Hinton", "Artificial Intelligence");
