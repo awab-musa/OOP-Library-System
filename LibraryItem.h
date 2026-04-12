@@ -1,4 +1,4 @@
-#pragma once  
+#pragma once
 #include <iostream>
 #include <string>
 using namespace std;
@@ -30,6 +30,7 @@ public:
     void borrowItem();
     void borrowItem(string borrowName);
 
+    // Add pure virtual functions
     void virtual displayInfo() = 0;
     void virtual calculateLateFee(int days) = 0;
 };
