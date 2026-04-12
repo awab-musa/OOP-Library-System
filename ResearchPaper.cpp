@@ -17,3 +17,12 @@ string ResearchPaper::getField()
 {
     return field;
 }
+void ResearchPaper::setResearcher(string newResearcher)
+{
+    researcher = newResearcher;
+}
+
+void ResearchPaper::setField(string newField)
+{
+    field = newField;
+}
