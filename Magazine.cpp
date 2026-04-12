@@ -36,3 +36,9 @@ void Magazine::displayInfo()
     cout << "Price: $" << price << endl;
     cout << "Status: " << (getIsBorrowed() ? "Borrowed" : "Available") << endl;
 }
+void Magazine::calculateLateFee(int days)
+{
+    float fee = days * 0.50f;
+    cout << "Late fee for magazine \"" << getTitle() << "\": $" << fee
+         << " (" << days << " days at $0.50/day)" << endl;
+}
