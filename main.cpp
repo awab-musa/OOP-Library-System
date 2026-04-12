@@ -41,3 +41,6 @@ int main()
     b1.comparePrice(m1);
     r1.comparePrice(m1);
     cout << endl;
+
+    cout << "========== TOTAL ITEMS ==========" << endl;
+    cout << "Total library items created: " << LibraryItem::getTotalItems() << endl;
