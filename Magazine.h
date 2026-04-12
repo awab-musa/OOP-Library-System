@@ -4,3 +4,6 @@
 using namespace std;
 class Magazine : public LibraryItem
 {
+private:
+    int issueNumber;
+    string publisher;
