@@ -13,3 +13,5 @@ public:
     ~ResearchPaper();
     string getResearcher();
     string getField();
+    void setResearcher(string newResearcher);
+    void setField(string newField);
